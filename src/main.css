@@ -15,3 +15,36 @@
 .hangman-drawing {
     position: relative;
 }
+
+
+#drawing-line1 {
+    height: 50px;
+    width: 10px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#drawing-line2 {
+    height: 10px;
+    width: 200px;
+    background-color: black;
+    margin-left: 120px;
+}
+
+#drawing-line3 {
+    height: 400px;
+    width: 10px;
+    background-color: black;
+    margin-left: 120px;
+}
+
+#drawing-line4 {
+    height: 10px;
+    width: 250px;
+    background-color: black;
+}
+
+
+#drawing-line4 {}
