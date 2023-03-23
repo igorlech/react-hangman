@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { HangmanDrawing } from "./HangmanDrawing";
+import { HangmanWord } from "./HangmanWord";
+import { Keyboard } from "./Keyboard";
 import words from "./wordList.json";
 
 function App() {
@@ -11,10 +14,10 @@ function App() {
   return (
     <div className="main">
       <div className="end-text">Lose Win</div>
+      <HangmanDrawing />
+      <HangmanWord />
+      <Keyboard />
     </div>
-    // <HangmanDrawing />
-    // <HangmanWord />
-    // <Keyboard />
   );
 }
 
