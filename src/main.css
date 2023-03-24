@@ -45,3 +45,16 @@
     width: 250px;
     background-color: black;
 }
+
+.hangman-word {
+    display: flex;
+    gap: 0.25rem;
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.letter-cont {
+    border-bottom: 0.1em solid black;
+}
