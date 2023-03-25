@@ -14,9 +14,7 @@ function App() {
   const incorrectLetters = guessedLetters.filter((letter) => {
     return !wordToGuess.includes(letter);
   });
-
   const isLoser = incorrectLetters.length >= 6;
-
   const isWinner = wordToGuess.split("").every((letter) => {
     return guessedLetters.includes(letter);
   });
@@ -60,7 +58,6 @@ function App() {
     };
   }, [isWinner, isLoser]);
 
-  console.log(wordToGuess);
   return (
     <div className="main">
       <div className="end-text">
