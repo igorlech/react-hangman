@@ -16,7 +16,9 @@ function App() {
       <div className="end-text">Lose Win</div>
       <HangmanDrawing />
       <HangmanWord />
-      <Keyboard />
+      <div className="keyboard-container">
+        <Keyboard />
+      </div>
     </div>
   );
 }

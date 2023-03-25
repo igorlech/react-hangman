@@ -58,3 +58,7 @@
 .letter-cont {
     border-bottom: 0.1em solid black;
 }
+
+.keyboard-container {
+    align-self: stretch;
+}
